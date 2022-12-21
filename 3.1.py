@@ -4,11 +4,11 @@
 
 from random import randint
 list = []
-for i in range(5):
+for i in range(6):
     list.append(randint(1, 10))
 print(list)
 sum = 0
-for i in range(len(list)-1):
+for i in range(len(list)):
     if i % 2 != 0:
         sum += list[i]
 print(sum)
